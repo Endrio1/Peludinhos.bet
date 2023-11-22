@@ -16,6 +16,9 @@ html, body{
 
 }
 
+
+
+
 .logo2{
     width: 20px;
     position: absolute;
@@ -38,6 +41,7 @@ html, body{
 
 .buttom{
     color: #002f4900;
+    margin-top: 40px;
 }
 .greenFlag{
     background: #002f49e6;
@@ -49,6 +53,8 @@ html, body{
     position: absolute;
 }
 
+
+
 .button2{
     background-color: #002f49e6;
     display: inline;
@@ -59,7 +65,15 @@ html, body{
     
 }
 
+.format{
+    margin-top: 0px;
+}
+.caraio{
+    margin-bottom: 80px
+}
+
 .botoes{
+    position: relative;
     margin-left: 610px;
     margin-top: -490px;
     position: relative;

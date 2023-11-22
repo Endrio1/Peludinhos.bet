@@ -1,39 +1,55 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
     <link rel="stylesheet" href="style2.css">
+
 </head>
 <body>
-    <head>
-        <link
-          rel="stylesheet"
-          href="https://unpkg.com/leopard@^1/dist/index.min.css"
-        />
-      </head>
+  
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leopard@^1/dist/index.min.css"
+    />
+  
+      <header class="caraio">
+        <img class="logo2" src="PELUDINHOS.png" alt="LOGO2">
+        <h1 class="nome_da_marca">peludinh s.pet</h1>
+ 
+      
+
+      </header>
       <body>
-        
-        <div id="project"></div>
-    
-        <script type="module">
-          import project from "./index.js";
-    
-          project.attach("#project");
-    
-          document.querySelector("#greenFlag").addEventListener("click", () => {
+        <div class="format">
+        <div id="project">
+
+          <script type="module">
+            import project from "./index.js";
+      
+            project.attach("#project");
+      
+            document.querySelector("#greenFlag").addEventListener("click", () => {
+              project.greenFlag();
+            });
+      
+            // Autoplay
             project.greenFlag();
-          });
+          </script>
+  
+        </div>
+        <div class="buttom">
+          <button class="greenFlag">Começar</button>
+          <h2 class="button2">buttom</h2>
+        </div>
+      </div>
     
-          // Autoplay
-          project.greenFlag();
-        </script>
-      </body>
-    <div class="buttom">
-      <button class="greenFlag">Começar</button>
-      <h2 class="button2">buttom</h2>
-    </div>
+  
+        
+     
+ 
+    
     <div class="botoes">
       <h2 class="botao1">Gato A %</h2>
       <h2 class="botao2">Gato B %</h2>
@@ -57,5 +73,7 @@
       </div>
     </div>
 
-<h2></h2>
+
+      
+    </body>
 </html>
