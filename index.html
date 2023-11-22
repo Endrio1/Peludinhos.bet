@@ -1,71 +1,38 @@
+<!--
+  Congratulations! Your project has been converted to JavaScript!
+
+  You should see a working preview of your project on the right side of
+  the screen. If not, it means something went wrong.
+
+  Your project's code is all stored in the files on the left side of the
+  screen. You can edit the JavaScript code and your project will change.
+  But you have to save your changes using File > Save or Ctrl+S on your
+  keyboard before the project preview will update.
+-->
+
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Peludinhos.bet</title>
-    <script src="java.js"></script>
-</head>
-<body>
-    <header>
-        <h1>Peludinhos.bet</h1>
-    </header>
-    <section>
-        <div>
-            <h3>Apostas</h3>
-            <button>Iniciar</button>
-        </div>
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leopard@^1/dist/index.min.css"
+    />
+  </head>
+  <body>
+    <button id="greenFlag">Green Flag</button>
+    <div id="project"></div>
 
-        <div>
-            <h3>Gatos</h3>
-            <table>
-                <th>
-                    <tr>gato1</tr>
-                    <tr>gato2</tr>
-                    <tr>gato3</tr>
-                    <tr>gato4</tr>
-                </th>
-                <td>2</td>
-                <td>4</td>
-                <td>3</td>
-                <td>6</td>
-            </table>
-        </div>
+    <script type="module">
+      import project from "./index.js";
 
-        <div>
-            <label for="Valor">Valor:<input type=""></label><button>Confirmaar</button>
-        </div>
-    </section>
-    <section>
-        <div>
-            <h3>Rankings</h3>
-            <table>
-                <tr>
-                    <th>
-                        melhores apostadores
-                    </th>
-                    <th>Ganhos</th>
-                </tr>
-                <tr>
-                    <td>Endrio</td><td>5</td>
-                </tr>
-                <tr>
-                    <td>Endrio</td><td>5</td>
-                </tr>
-                <tr>
-                    <td>Endrio</td><td>5</td>
-                </tr>
-                <tr>
-                    <td>Endrio</td><td>5</td>
-                </tr>
-                <tr>
-                    <td>Endrio</td><td>5</td>
-                </tr>
-            </table>
-        </div>
-    </section>
-    <footer>
-        <p>copyright 2023 Coded Os</p>
-    </footer>
-</body>
+      project.attach("#project");
+
+      document.querySelector("#greenFlag").addEventListener("click", () => {
+        project.greenFlag();
+      });
+
+      // Autoplay
+      project.greenFlag();
+    </script>
+  </body>
 </html>

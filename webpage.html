@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <head>
+        <link
+          rel="stylesheet"
+          href="https://unpkg.com/leopard@^1/dist/index.min.css"
+        />
+      </head>
+      <body>
+        
+        <div id="project"></div>
+    
+        <script type="module">
+          import project from "./index.js";
+    
+          project.attach("#project");
+    
+          document.querySelector("#greenFlag").addEventListener("click", () => {
+            project.greenFlag();
+          });
+    
+          // Autoplay
+          project.greenFlag();
+        </script>
+      </body>
+    <div class="buttom">
+      <button class="greenFlag">Começar</button>
+      <h2 class="button2">buttom</h2>
+    </div>
+    <div class="botoes">
+      <h2 class="botao1">Gato A %</h2>
+      <h2 class="botao2">Gato B %</h2>
+      <h2 class="botao3">Gato C %</h2>
+      <h2 class="botao4">Gato D %</h2>
+    </div> 
+    <div class="botaodelado">
+      <h1 class="botaodelado1">button</h1>
+      <h1 class="botaodelado2">button</h1>
+      <h1 class="botaodelado3">button</h1>
+    </div>
+    <div>
+      <div class="tabela">
+        <h1 class="tabela1">1º</h1>
+        <h1 class="tabela2">2º </h1>
+        <h1 class="tabela3">3º</h1>
+        <h1 class="tabela4">4º </h1>
+        <h1 class="tabela5">5º </h1>
+        <h1 class="tabela6">6º </h1>
+        <h1 class="tabela7">7º </h1>
+      </div>
+    </div>
+
+<h2></h2>
+</html>

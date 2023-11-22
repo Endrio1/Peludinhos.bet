@@ -1,0 +1,235 @@
+html, body{
+    margin:  0px;
+    padding: 0px;
+    background-color: #FDF0D5;
+
+}
+  
+.nome_da_marca{
+    background-color: #002f49e6;
+    margin-top: 0;
+    padding: 10px;
+    color: azure;
+    font: Arial ;
+    position: relative;
+    letter-spacing: 3px;
+
+}
+
+.logo2{
+    width: 20px;
+    position: absolute;
+    margin-left: 149px;
+    margin-top: 20px;
+    color: white;
+    
+}
+
+.mapa{
+    width: 350px;
+    border: 5px solid #002f49e6;
+    display: inline;
+    margin-left: 100px;
+    margin-bottom: 0px;
+    margin-right: 10px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.buttom{
+    color: #002f4900;
+}
+.greenFlag{
+    background: #002f49e6;
+    display: inline;
+    padding: 25px 50px 30px 45px;
+    margin-left: 100px; 
+    margin-top: 27px;
+    border-radius: 5px;
+    position: absolute;
+}
+
+.button2{
+    background-color: #002f49e6;
+    display: inline;
+    padding: 25px 50px 30px 45px;
+    margin-left: 290px; 
+    border-radius: 5px;
+    position: absolute;
+    
+}
+
+.botoes{
+    margin-left: 610px;
+    margin-top: -490px;
+    position: relative;
+    border: 10px solid #780000;
+    margin-bottom: 0px;
+    margin-right:100px;
+    border-radius: 10px;
+
+}
+
+.botao1{
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 391.5px;
+    margin-bottom: 0px;
+    background-color: #C1121F;
+    padding: 10px 150px 10px 30px;
+    border: 10px solid #780000;
+    
+    
+    color: #FDF0D5;
+}
+
+.botao1:hover, .botao2:hover, .botao3:hover, .botao4:hover, .botaodelado1:hover, .botaodelado2:hover, .botaodelado3:hover {
+    background: #780000; 
+}
+
+.botao2{
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 391.5px;
+    margin-bottom: 0px;
+    background-color: #C1121F;
+    padding: 10px 150px 10px 30px;
+    border: 10px solid #780000;
+    
+    
+    color: #FDF0D5;
+}
+
+.botao3{
+    margin-left: 391.5px;
+    margin-top: -133px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    background-color: #C1121F;
+    padding: 10px 150px 10px 30px;
+    border: 10px solid #780000;
+    
+     
+    color: #FDF0D5;
+}
+.botao4{
+    margin-left: 391.5px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    background-color: #C1121F;
+    padding: 10px 150px 10px 30px;
+    border: 10px solid #780000;
+    
+    display: flex;
+    color: #FDF0D5;
+}
+
+.botaodelado{
+    position: relative;
+    margin-left: 610px;
+    margin-top: 30px;
+    border: 5px solid #780000;
+    color: #C1121F;
+    margin-right: 100px;
+    border-radius: 5px;
+}
+.botaodelado1{
+    background-color: #C1121F;
+    border: 1px solid #780000;
+    margin-left: 0px;
+    margin-right: 390px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 5px solid #780000;
+}
+
+.botaodelado2{
+    background-color: #C1121F;
+    border: 5px solid #780000;
+    margin-left: 402px;
+    margin-right: 195px;
+    margin-top: -47.5px;
+    margin-bottom: 0px;
+    
+}
+
+.botaodelado3{
+    background-color: #C1121F;
+    border: 1px solid #780000;
+    margin-left: 595px;
+    margin-right: 0px;
+    margin-top: -47.5px;
+    margin-bottom: 0px;
+    border: 5px solid #780000;
+}
+
+.tabela{
+    margin-left: 610px;
+    padding: 0px;
+    position: relative;
+    margin-top: 30px;
+    color: #C1121F;
+    border: 5px solid #780000;
+    border-radius: 10px;
+    margin-right: 100px;
+}
+
+.tabela1, .tabela2, .tabela3, .tabela4, .tabela5, .tabela6, .tabela7{
+    margin-bottom: 0px;
+    
+}
+.tabela1{
+    margin-top: 0px;
+    background-color: #C1121F;
+    border: 5px solid #780000;
+    
+    margin-bottom: 0px;
+    
+}
+.tabela2{
+    margin-top: 0px;
+    background-color: #C1121F;
+    border: 5px solid #780000;
+    
+    
+}
+
+.tabela3{
+    margin-top: 00px;
+    background-color: #C1121F;
+    border: 5px solid #780000;
+    
+    
+}
+
+.tabela4{
+    margin-top: 0px;
+    background-color: #C1121F;
+    border: 5px solid #780000;
+    
+    
+}
+
+.tabela5{
+    margin-top: 0px;
+    background-color: #C1121F;
+    border: 5px solid #780000;
+    
+    
+}
+.tabela6{
+    margin-top: 0px;
+    background-color: #C1121F;
+    border: 5px solid #780000;
+    
+    
+}
+
+.tabela7{
+    margin-top: 0px;
+    background-color: #C1121F;
+    border: 5px solid #780000;
+    margin-left: 0px;
+    
+}
