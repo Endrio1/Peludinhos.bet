@@ -1,249 +1,186 @@
-html, body{
-    margin:  0px;
-    padding: 0px;
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,200;1,400&display=swap');
+body{
+    margin: 0;
     background-color: #FDF0D5;
-
-}
-  
-.nome_da_marca{
-    background-color: #002f49e6;
-    margin-top: 0;
-    padding: 10px;
-    color: azure;
-    font: Arial ;
-    position: relative;
-    letter-spacing: 3px;
-
-}
-
-
-
-
-.logo2{
-    width: 20px;
-    position: absolute;
-    margin-left: 149px;
-    margin-top: 20px;
-    color: white;
-    
-}
-
-.mapa{
-    width: 350px;
-    border: 5px solid #002f49e6;
-    display: inline;
-    margin-left: 100px;
-    margin-bottom: 0px;
-    margin-right: 10px;
-    border-radius: 10px;
-    position: relative;
-}
-
-.buttom{
-    color: #002f4900;
-    margin-top: 40px;
-}
-.greenFlag{
-    background: #002f49e6;
-    display: inline;
-    padding: 25px 50px 30px 45px;
-    margin-left: 100px; 
-    margin-top: 27px;
-    border-radius: 5px;
-    position: absolute;
-}
-
-
-
-.button2{
-    background-color: #002f49e6;
-    display: inline;
-    padding: 25px 50px 30px 45px;
-    margin-left: 290px; 
-    border-radius: 5px;
-    position: absolute;
-    
 }
 
 .format{
-    margin-top: 0px;
+    margin: 3% 0% 0% 15%;
+
 }
-.caraio{
-    margin-bottom: 80px
+
+.container{
+    height: 100px;
+    padding: 0 20px;
+    background-color: #002f49e6;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nome{
+    font-size: 3rem;
+    padding: 1.5rem;
+    color: azure;
+    font: Arial ;
+    position: relative;
+    letter-spacing: 0px;
+}   
+
+.imagem1{
+    width: 50px;
+    height: 50px;
+}
+
+.logo_user{
+    margin-right: 10%;
+    width: 50px;
+    height: 50px;
+}
+
+.user{
+    background-color: #d3d3d3;
+    height: 100px;
+    width: 240px;
+    padding: 0px 60px 0px 40px;
+    border-radius: 40px;
+    text-align: justify;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 60%;
 }
 
 .botoes{
-    position: relative;
-    margin-left: 610px;
-    margin-top: -490px;
-    position: relative;
-    border: 10px solid #780000;
-    margin-bottom: 0px;
-    margin-right:100px;
+    margin-left: 4%;
+    display: block;
+}
+
+.texto{
+    color: aliceblue;
+    font-size: 1rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.start_btn{
+    color: white;
+    background-color: #C1121F;
+    border: 4px solid #002f49e6;
+    width: 350px;
+    height: 115px;
+    border-radius: 20px;
+    box-shadow: none;
+    margin-top: 50px;
+
+}
+
+.percGatos{
+    font-size: 15px;
+    align-items: center;
     border-radius: 10px;
-
-}
-
-.botao1{
-    margin-left: 0px;
-    margin-top: 0px;
-    margin-right: 391.5px;
+    background-color: #002f49e6;
+    width: 48rem;
+    height: 22.3rem;
+    border: 4px solid #f1af09 ;
+    display: inline-block;
+    margin-left: 42%;
+    margin-top: -530px;
+    float: left;
     margin-bottom: 0px;
-    background-color: #C1121F;
-    padding: 10px 150px 10px 30px;
-    border: 10px solid #780000;
-    
-    
-    color: #FDF0D5;
+
 }
 
-.botao1:hover, .botao2:hover, .botao3:hover, .botao4:hover, .botaodelado1:hover, .botaodelado2:hover, .botaodelado3:hover {
-    background: #780000; 
+
+.labels{
+    display: inline-flex;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: larger;
+    margin: 2%;
+    color: white;
+    background-color: #C1121F;
+    padding: 15px 92px 15px 92px;
+    border: 2px solid #780000;
+    border-radius: 15px;
+    align-items: center;
 }
 
-.botao2{
-    margin-left: 0px;
-    margin-top: 0px;
-    margin-right: 391.5px;
-    margin-bottom: 0px;
-    background-color: #C1121F;
-    padding: 10px 150px 10px 30px;
-    border: 10px solid #780000;
-    
-    
-    color: #FDF0D5;
+.apostas{
+    display: block;
+    font-size: large;
+    color: white;
+    border-radius: 4px;
+    margin-left: 43%;
+    margin-top: -150px;
 }
 
-.botao3{
-    margin-left: 391.5px;
-    margin-top: -133px;
-    margin-right: 0px;
-    margin-bottom: 0px;
+.celulas1{
+    border: 4px solid #002f49e6;
+    font-size: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+    border-radius: 20px;
+    padding: 40px 92px 40px 92px;
+    margin: 10px 10px 0px 10px;
     background-color: #C1121F;
-    padding: 10px 150px 10px 30px;
-    border: 10px solid #780000;
-    
-     
-    color: #FDF0D5;
-}
-.botao4{
-    margin-left: 391.5px;
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    background-color: #C1121F;
-    padding: 10px 150px 10px 30px;
-    border: 10px solid #780000;
-    
-    display: flex;
-    color: #FDF0D5;
+    position: absolute;
+    margin-left: -1%;
 }
 
-.botaodelado{
-    position: relative;
-    margin-left: 610px;
-    margin-top: 30px;
-    border: 5px solid #780000;
-    color: #C1121F;
-    margin-right: 100px;
+.celulas2{
+    border: 4px solid #002f49e6;
+    font-size: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+    border-radius: 20px;
+    padding: 33px 100px 33px 100px;
+    margin: 10px 10px 0px 10px;
+    background-color: #C1121F;
+    position: absolute;
+    margin-left: 19%;
+}
+
+.menu_gatos{
+    border: 0px solid transparent;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 5%;
     border-radius: 5px;
-}
-.botaodelado1{
-    background-color: #C1121F;
-    border: 1px solid #780000;
-    margin-left: 0px;
-    margin-right: 390px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    border: 5px solid #780000;
+    margin-left: -5%;
 }
 
-.botaodelado2{
-    background-color: #C1121F;
-    border: 5px solid #780000;
-    margin-left: 402px;
-    margin-right: 195px;
-    margin-top: -47.5px;
-    margin-bottom: 0px;
-    
+.gatos{
+    height: 100px;
+    width: 100px;
 }
 
-.botaodelado3{
-    background-color: #C1121F;
-    border: 1px solid #780000;
-    margin-left: 595px;
-    margin-right: 0px;
-    margin-top: -47.5px;
-    margin-bottom: 0px;
-    border: 5px solid #780000;
+.porcaria{
+    display: none;
+
 }
 
-.tabela{
-    margin-left: 610px;
-    padding: 0px;
+.labels:hover .porcaria{
+    background-color: transparent;
+    font-size: 20px;
+    display: flex;
+    position: fixed;
+    margin-left: 100px;
+}
+
+.imagem2{
+    width: 50px;
+    height: 50px;
+    margin: 3%;
+}
+
+
+
+.links{
+    margin: 0% 45% 0 45%;
+
+}
+
+.rodape{
+
+    margin-top: 300px;
+    height: 56px;
     position: relative;
-    margin-top: 30px;
-    color: #C1121F;
-    border: 5px solid #780000;
-    border-radius: 10px;
-    margin-right: 100px;
-}
-
-.tabela1, .tabela2, .tabela3, .tabela4, .tabela5, .tabela6, .tabela7{
-    margin-bottom: 0px;
-    
-}
-.tabela1{
-    margin-top: 0px;
-    background-color: #C1121F;
-    border: 5px solid #780000;
-    
-    margin-bottom: 0px;
-    
-}
-.tabela2{
-    margin-top: 0px;
-    background-color: #C1121F;
-    border: 5px solid #780000;
-    
-    
-}
-
-.tabela3{
-    margin-top: 00px;
-    background-color: #C1121F;
-    border: 5px solid #780000;
-    
-    
-}
-
-.tabela4{
-    margin-top: 0px;
-    background-color: #C1121F;
-    border: 5px solid #780000;
-    
-    
-}
-
-.tabela5{
-    margin-top: 0px;
-    background-color: #C1121F;
-    border: 5px solid #780000;
-    
-    
-}
-.tabela6{
-    margin-top: 0px;
-    background-color: #C1121F;
-    border: 5px solid #780000;
-    
-    
-}
-
-.tabela7{
-    margin-top: 0px;
-    background-color: #C1121F;
-    border: 5px solid #780000;
-    margin-left: 0px;
-    
+    align-self: center;
+    align-items: center;
 }

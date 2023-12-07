@@ -1,244 +1,7 @@
-html, body{
-    margin:  0px;
-    padding: 0px;
-    background-color: #FDF0D5;
-
-}
-  
-.nome_da_marca{
-    background-color: #002f49e6;
-    margin-top: 0;
-    padding: 10px;
-    color: azure;
-    font: Arial ;
-    position: relative;
-    letter-spacing: 3px;
-
-}
-
-.logo2{
-    width: 20px;
-    position: absolute;
-    margin-left: 149px;
-    margin-top: 20px;
-    color: white;
-    
-}
-
-.mapa{
-    width: 350px;
-    border: 5px solid #002f49e6;
-    display: inline;
-    margin-left: 100px;
-    margin-bottom: 0px;
-    margin-right: 10px;
-    border-radius: 10px;
-    position: relative;
-}
-
-.buttom{
-    color: #002f4900;
-}
-.button1{
-    background: #002f49e6;
-    display: inline;
-    padding: 25px 50px 30px 45px;
-    margin-left: 100px; 
-    border-radius: 5px;
-    position: absolute;
-}
-
-.button2{
-    background-color: #002f49e6;
-    display: inline;
-    padding: 25px 50px 30px 45px;
-    margin-left: 290px; 
-    border-radius: 5px;
-    position: absolute;
-    
-}
-
-.botoes{
-    margin-left: 610px;
-    margin-top: -490px;
-    position: relative;
-    border: 10px solid #780000;
-    margin-bottom: 0px;
-    margin-right:100px;
-    border-radius: 10px;
-
-}
-
-.botao1{
-    margin-left: 0px;
-    margin-top: 0px;
-    margin-right: 391.5px;
-    margin-bottom: 0px;
-    background-color: #C1121F;
-    padding: 10px 150px 10px 30px;
-    border: 10px solid #780000;
-    
-    
-    color: #FDF0D5;
-}
-
-.botao1:hover, .botao2:hover, .botao3:hover, .botao4:hover, .botaodelado1:hover, .botaodelado2:hover, .botaodelado3:hover {
-    background: #780000; 
-}
-
-.botao2{
-    margin-left: 0px;
-    margin-top: 0px;
-    margin-right: 391.5px;
-    margin-bottom: 0px;
-    background-color: #C1121F;
-    padding: 10px 150px 10px 30px;
-    border: 10px solid #780000;
-    
-    
-    color: #FDF0D5;
-}
-
-.botao3{
-    margin-left: 391.5px;
-    margin-top: -133px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    background-color: #C1121F;
-    padding: 10px 150px 10px 30px;
-    border: 10px solid #780000;
-    
-     
-    color: #FDF0D5;
-}
-.botao4{
-    margin-left: 391.5px;
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    background-color: #C1121F;
-    padding: 10px 150px 10px 30px;
-    border: 10px solid #780000;
-    
-    display: flex;
-    color: #FDF0D5;
-}
-
-.botaodelado{
-    position: relative;
-    margin-left: 610px;
-    margin-top: 30px;
-    border: 5px solid #780000;
-    color: #C1121F;
-    margin-right: 100px;
-    border-radius: 5px;
-}
-.botaodelado1{
-    background-color: #C1121F;
-    border: 1px solid #780000;
-    margin-left: 0px;
-    margin-right: 390px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    border: 5px solid #780000;
-}
-
-.botaodelado2{
-    background-color: #C1121F;
-    border: 5px solid #780000;
-    margin-left: 402px;
-    margin-right: 195px;
-    margin-top: -47.5px;
-    margin-bottom: 0px;
-    
-}
-
-.botaodelado3{
-    background-color: #C1121F;
-    border: 1px solid #780000;
-    margin-left: 595px;
-    margin-right: 0px;
-    margin-top: -47.5px;
-    margin-bottom: 0px;
-    border: 5px solid #780000;
-}
-
-.tabela{
-    margin-left: 610px;
-    padding: 0px;
-    position: relative;
-    margin-top: 30px;
-    color: #C1121F;
-    border: 5px solid #780000;
-    border-radius: 10px;
-    margin-right: 100px;
-}
-
-.tabela1, .tabela2, .tabela3, .tabela4, .tabela5, .tabela6, .tabela7{
-    margin-bottom: 0px;
-    
-}
-.tabela1{
-    margin-top: 0px;
-    background-color: #C1121F;
-    border: 5px solid #780000;
-    
-    margin-bottom: 0px;
-    
-}
-.tabela2{
-    margin-top: 0px;
-    background-color: #C1121F;
-    border: 5px solid #780000;
-    
-    
-}
-
-.tabela3{
-    margin-top: 00px;
-    background-color: #C1121F;
-    border: 5px solid #780000;
-    
-    
-}
-
-.tabela4{
-    margin-top: 0px;
-    background-color: #C1121F;
-    border: 5px solid #780000;
-    
-    
-}
-
-.tabela5{
-    margin-top: 0px;
-    background-color: #C1121F;
-    border: 5px solid #780000;
-    
-    
-}
-.tabela6{
-    margin-top: 0px;
-    background-color: #C1121F;
-    border: 5px solid #780000;
-    
-    
-}
-
-.tabela7{
-    margin-top: 0px;
-    background-color: #C1121F;
-    border: 5px solid #780000;
-    margin-left: 0px;
-    
-}
-
-
-
 
 .leopard__project {
-    overflow: hidden;
-    position: relative
+    overflow: none;
+    position: relative;
 }
 
 .leopard__askBox {
@@ -255,18 +18,18 @@ html, body{
     left: 10px;
     padding: 12px;
     position: absolute;
-    right: 10px
+    right: 10px;
 }
 
 .leopard__askBox:not(:first-of-type) {
-    display: none
+    display: none;
 }
 
 .leopard__askText {
     font-weight: 700;
     grid-area: text;
     margin-bottom: 8px;
-    user-select: none
+    user-select: none;
 }
 
 .leopard__askInput {
@@ -276,14 +39,14 @@ html, body{
     font: inherit;
     grid-area: input;
     padding: 4px 8px;
-    width: 100%
+    width: 100%;
 }
 
 .leopard__askButton:focus,
 .leopard__askInput:focus {
     border-color: #4d97ff;
     box-shadow: 0 0 0 3px rgba(77, 151, 255, .2);
-    outline: none
+    outline: none;
 }
 
 .leopard__askButton {
@@ -297,7 +60,7 @@ html, body{
     margin-left: 8px;
     position: relative;
     text-indent: -999px;
-    width: 28px
+    width: 28px;
 }
 
 .leopard__askButton:after {
@@ -309,7 +72,7 @@ html, body{
     position: absolute;
     top: 50%;
     transform: translate(-50%, -65%) rotate(45deg);
-    width: 5px
+    width: 5px;
 }
 
 .leopard__watcher {
@@ -325,7 +88,7 @@ html, body{
     overflow: hidden;
     padding: 3px;
     position: absolute;
-    top: 0
+    top: 0;
 }
 
 .leopard__watcherLabel {
@@ -341,7 +104,7 @@ html, body{
     display: flex;
     justify-content: center;
     margin: 0 5px;
-    text-align: center
+    text-align: center;
 }
 
 .leopard__watcherValue {
@@ -353,12 +116,12 @@ html, body{
     grid-area: value;
     min-width: 40px;
     padding: 0 2px;
-    white-space: pre-wrap
+    white-space: pre-wrap;
 }
 
 .leopard__watcherSlider {
     grid-area: slider;
-    margin: 0
+    margin: 0;
 }
 
 .leopard__watcher:not(.leopard__watcher--slider) .leopard__watcherSlider {
@@ -367,18 +130,18 @@ html, body{
 
 .leopard__watcher--large {
     grid-template: "value" auto/auto;
-    padding: 0
+    padding: 0;
 }
 
 .leopard__watcher--large .leopard__watcherLabel {
-    display: none
+    display: none;
 }
 
 .leopard__watcher--large .leopard__watcherValue {
     border-radius: 0;
     font-size: 1rem;
     margin: 0;
-    padding: .2rem .25rem
+    padding: .2rem .25rem;
 }
 
 .leopard__watcher--list {
@@ -395,17 +158,17 @@ html, body{
     margin: 0;
     min-height: 16px;
     overflow-y: auto;
-    padding: 1px 2px
+    padding: 1px 2px;
 }
 
 .leopard__watcher--list .leopard__watcherLabel {
-    margin-bottom: 2px
+    margin-bottom: 2px;
 }
 
 .leopard__watcherListItem {
     align-items: center;
     display: flex;
-    margin: 1px 0
+    margin: 1px 0;
 }
 
 .leopard__watcherListItemIndex {
@@ -415,7 +178,7 @@ html, body{
     font-size: 1rem;
     margin-right: 2px;
     padding: 0 3px;
-    user-select: none
+    user-select: none;
 }
 
 .leopard__watcherListItemContent {
@@ -425,14 +188,14 @@ html, body{
     flex: 1 1 0;
     font-size: .75rem;
     padding: 2px 4px;
-    text-align: left
+    text-align: left;
 }
 
 .leopard__watcher--list.leopard__watcher--large .leopard__watcherValue {
     background: none;
-    border: none
+    border: none;
 }
 
 .leopard__watcher--list.leopard__watcher--large .leopard__watcherListItemIndex {
-    display: none
+    display: none;
 }
